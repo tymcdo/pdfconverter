@@ -16,7 +16,7 @@ body {
 
 		"data_xml": "{{xml as a string}}",
 
-		"data_json": {json}
+		"data_json": {{json}}
 	
 	}
 
