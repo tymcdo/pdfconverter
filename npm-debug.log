@@ -1,0 +1,87 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'i', 'chrome-cli' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData chrome-cli
+8 silly fetchNamedPackageData chrome-cli
+9 silly mapToRegistry name chrome-cli
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/chrome-cli
+13 verbose request uri https://registry.npmjs.org/chrome-cli
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 4:30:33 PM
+16 verbose request id fbba3cc256f5e060
+17 verbose etag "590a1b70-110b"
+18 verbose lastModified Wed, 3 May 2017 18:03:28 GMT
+19 http request GET https://registry.npmjs.org/chrome-cli
+20 http 304 https://registry.npmjs.org/chrome-cli
+21 verbose headers { date: 'Fri, 25 May 2018 21:30:33 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   etag: '"590a1b70-110b"',
+21 verbose headers   age: '300',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-mdw17331-MDW',
+21 verbose headers   'x-cache': 'HIT',
+21 verbose headers   'x-cache-hits': '1',
+21 verbose headers   'x-timer': 'S1527283833.409318,VS0,VE1',
+21 verbose headers   vary: 'Accept-Encoding, Accept' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Fri, 25 May 2018 21:30:33 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     etag: '"590a1b70-110b"',
+22 silly get     age: '300',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-mdw17331-MDW',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '1',
+22 silly get     'x-timer': 'S1527283833.409318,VS0,VE1',
+22 silly get     vary: 'Accept-Encoding, Accept' } ]
+23 verbose etag https://registry.npmjs.org/chrome-cli from cache
+24 verbose get saving chrome-cli to /root/.npm/registry.npmjs.org/chrome-cli/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly rollbackFailedOptional Starting
+38 silly rollbackFailedOptional Finishing
+39 silly runTopLevelLifecycles Starting
+40 silly runTopLevelLifecycles Finishing
+41 silly install printInstalled
+42 verbose stack Error: Unsupported
+42 verbose stack     at checkPlatform (/usr/share/npm/node_modules/npm-install-checks/index.js:46:14)
+42 verbose stack     at Array.<anonymous> (/usr/share/npm/node_modules/slide/lib/bind-actor.js:15:8)
+42 verbose stack     at LOOP (/usr/share/npm/node_modules/slide/lib/chain.js:15:14)
+42 verbose stack     at /usr/share/npm/node_modules/slide/lib/chain.js:18:7
+42 verbose stack     at checkEngine (/usr/share/npm/node_modules/npm-install-checks/index.js:10:20)
+42 verbose stack     at Array.<anonymous> (/usr/share/npm/node_modules/slide/lib/bind-actor.js:15:8)
+42 verbose stack     at LOOP (/usr/share/npm/node_modules/slide/lib/chain.js:15:14)
+42 verbose stack     at chain (/usr/share/npm/node_modules/slide/lib/chain.js:20:5)
+42 verbose stack     at module.exports.isInstallable (/usr/share/npm/lib/install/validate-args.js:26:3)
+42 verbose stack     at Array.<anonymous> (/usr/share/npm/node_modules/slide/lib/bind-actor.js:15:8)
+43 verbose pkgid chrome-cli@1.1.1
+44 verbose cwd /mnt/c/MoveHQ DEV/Project_RS
+45 error Linux 4.4.0-17134-Microsoft
+46 error argv "/usr/bin/node" "/usr/bin/npm" "i" "chrome-cli"
+47 error node v8.10.0
+48 error npm  v3.5.2
+49 error code EBADPLATFORM
+50 error notsup Not compatible with your operating system or architecture: chrome-cli@1.1.1
+51 error notsup Valid OS:    darwin
+51 error notsup Valid Arch:  any
+51 error notsup Actual OS:   linux
+51 error notsup Actual Arch: x64
+52 verbose exit [ 1, true ]

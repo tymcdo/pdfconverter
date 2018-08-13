@@ -1,0 +1,26 @@
+{
+  "name": "report_pdf",
+  "version": "1.0.0",
+  "description": "Generates a PDF from given report target and acceptable XML/JSON",
+  "main": "pdf.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chromium": "^1.0.2",
+    "express": "^4.16.3",
+    "handlebars": "^4.0.11",
+    "http-server": "^0.11.1",
+    "morgan": "^1.9.0",
+    "node-http-server": "^8.1.2",
+    "puppeteer": "^1.7.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Tyler McDowell",
+  "license": "ISC"
+}

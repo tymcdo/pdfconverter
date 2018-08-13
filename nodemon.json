@@ -1,0 +1,7 @@
+{
+    "env": {
+        "serverAddress": "http://localhost:8080",
+        "PORT": 3000,
+        "PORT2": 8080
+    }
+}
