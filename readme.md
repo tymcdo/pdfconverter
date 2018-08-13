@@ -8,15 +8,15 @@ body {
 
 	{
 	
-		"requested_report": "/base_estimate_core/base_estimate/base_estimate.html",
+		"requested_report": "{{report lcoation}}",
 
-		"reportID": 1,
+		"reportID": {{}},
 
-		"data_type": "xml",
+		"data_type": {{'xml or 'json'}},
 
-		"data_xml": "",
+		"data_xml": "{{xml as a string}}",
 
-		"data_json": {}
+		"data_json": {json}
 	
 	}
 
